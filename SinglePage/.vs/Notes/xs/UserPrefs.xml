@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{5671FABA-3EF1-49E9-94BE-6E591444BB92}|Default">
+﻿<Properties StartupConfiguration="{6108DFE5-FACA-4F86-8122-755E6BF103EB}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Notes/App.xaml.cs">
     <Files>
       <File FileName="Notes/Models/Note.cs" Line="11" Column="2" />
@@ -7,7 +7,7 @@
       <File FileName="Notes/NotesPage.xaml" Line="20" Column="15" />
       <File FileName="Notes/NotesPage.xaml.cs" Line="58" Column="2" />
       <File FileName="Notes/App.xaml" Line="5" Column="15" />
-      <File FileName="Notes/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="Notes/App.xaml.cs" Line="36" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,13 +21,13 @@
               <Node name="NoteEntryPage.xaml" expanded="True" />
               <Node name="NotesPage.xaml" expanded="True" />
             </Node>
-            <Node name="Notes.Android" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Notes.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.Notes.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.Notes.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D26689B5-3410-41DB-8EF1-B02D996E7D94" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
