@@ -12,4 +12,13 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.5.0.129452" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MainPage.xaml.cs" />
+  </ItemGroup>
 </Project>
