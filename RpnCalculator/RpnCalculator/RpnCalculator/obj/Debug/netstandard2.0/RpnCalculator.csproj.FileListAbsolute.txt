@@ -1,0 +1,12 @@
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/bin/Debug/netstandard2.0/RpnCalculator.deps.json
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/bin/Debug/netstandard2.0/RpnCalculator.dll
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/bin/Debug/netstandard2.0/RpnCalculator.pdb
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/RpnCalculator.csprojAssemblyReference.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/RpnCalculator.csproj.CoreCompileInputs.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/RpnCalculator.AssemblyInfoInputs.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/RpnCalculator.AssemblyInfo.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/RpnCalculator.dll
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/RpnCalculator/RpnCalculator/RpnCalculator/obj/Debug/netstandard2.0/RpnCalculator.pdb

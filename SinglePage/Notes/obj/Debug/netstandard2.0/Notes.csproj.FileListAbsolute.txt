@@ -1,0 +1,12 @@
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/bin/Debug/netstandard2.0/Notes.deps.json
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/bin/Debug/netstandard2.0/Notes.dll
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/bin/Debug/netstandard2.0/Notes.pdb
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/Notes.csprojAssemblyReference.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/Notes.csproj.CoreCompileInputs.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/Notes.AssemblyInfoInputs.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/Notes.AssemblyInfo.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/Notes.dll
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/SinglePage/Notes/obj/Debug/netstandard2.0/Notes.pdb
