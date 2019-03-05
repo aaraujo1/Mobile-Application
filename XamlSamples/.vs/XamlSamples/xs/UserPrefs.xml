@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{9C9E6DD6-3CE5-4815-A85A-4953AD5509D2}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamlSamples.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.XamlSamples.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D26689B5-3410-41DB-8EF1-B02D996E7D94" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamlSamples/XamlSamples/HslColorScrollPage.xaml">
+    <Files>
+      <File FileName="XamlSamples/XamlSamples/HelloXamlPage.xaml" Line="18" Column="15" />
+      <File FileName="XamlSamples/XamlSamples/HslColorScrollPage.xaml" Line="34" Column="15" />
+      <File FileName="XamlSamples/XamlSamples/HslViewModel.cs" Line="92" Column="87" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamlSamples" expanded="True">
+            <Node name="XamlSamples" expanded="True">
+              <Node name="HslColorScrollPage.xaml" selected="True" />
+              <Node name="SliderBindingsPage.xaml" expanded="True" />
+            </Node>
+            <Node name="XamlSamples.Android" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
