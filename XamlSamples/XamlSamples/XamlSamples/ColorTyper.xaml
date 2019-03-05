@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:XamlSamples"
+             x:Class="XamlSamples.ColorTyper"
+             Title="Color Typer">
+    
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:Key="boxSize"
+                        x:TypeArguments="x:Double">
+                <On Platform="iOS, Android, UWP" Value="50" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="rowHeight"
+                        x:TypeArguments="x:Int32">
+                <On Platform="iOS, Android, UWP" Value="60" />
+            </OnPlatform>
+
+            <local:DoubleToIntConverter x:Key="intConverter" />
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+       <StackLayout>  
+        <Label Text="ENTER COLOR" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center"
+               Margin="0,20,0,20"
+               x:Name = "_label"
+               />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="0" Grid.Column="0" Clicked="OnButtonClicked" />
+            
+            <Button Text="1" Grid.Column="1" Clicked="OnButtonClicked" />
+                    
+            <Button Text="2" Grid.Column="2" Clicked="OnButtonClicked" />
+                    
+            <Button Text="3" Grid.Column="3" Clicked="OnButtonClicked" />
+
+        </Grid>
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="4" Grid.Column="0" Clicked="OnButtonClicked" />
+            
+            <Button Text="5" Grid.Column="1" Clicked="OnButtonClicked" />
+                    
+            <Button Text="6" Grid.Column="2" Clicked="OnButtonClicked" />
+                    
+            <Button Text="7" Grid.Column="3" Clicked="OnButtonClicked" />
+
+        </Grid>
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="8" Grid.Column="0" Clicked="OnButtonClicked" />
+            
+            <Button Text="9" Grid.Column="1" Clicked="OnButtonClicked" />
+                    
+            <Button Text="A" Grid.Column="2" Clicked="OnButtonClicked" />
+                    
+            <Button Text="B" Grid.Column="3" Clicked="OnButtonClicked" />
+
+        </Grid>
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="C" Grid.Column="0" Clicked="OnButtonClicked" />
+            
+            <Button Text="D" Grid.Column="1" Clicked="OnButtonClicked" />
+                    
+            <Button Text="E" Grid.Column="2" Clicked="OnButtonClicked" />
+                    
+            <Button Text="F" Grid.Column="3" Clicked="{x:Static local:NamedColor.All}" />
+
+        </Grid>
+            
+         <ListView ItemsSource="{x:Static local:NamedColor.All}"
+              RowHeight="{StaticResource rowHeight}"
+                   x:Name="_theList">
+               <!-- <ListView ItemsSource="{x:Static local:NamedColor.All}"
+              RowHeight="{StaticResource rowHeight}"
+                   x:Name="_theList">-->
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Padding="5, 5, 0, 5"
+                                 Orientation="Horizontal"
+                                 Spacing="15">
+
+                        <BoxView WidthRequest="{StaticResource boxSize}"
+                                 HeightRequest="{StaticResource boxSize}"
+                                 Color="{Binding Color}" />
+
+                        <StackLayout Padding="5, 0, 0, 0"
+                                     VerticalOptions="Center">
+
+                            <Label Text="{Binding FriendlyName}"
+                                   FontAttributes="Bold"
+                                   FontSize="Medium" />
+
+                            <StackLayout Orientation="Horizontal"
+                                         Spacing="0">
+                                <Label Text="{Binding Color.R,
+                                       Converter={StaticResource intConverter},
+                                       ConverterParameter=255,
+                                       StringFormat='R={0:X2}'}" />
+                                
+                                <Label Text="{Binding Color.G,
+                                       Converter={StaticResource intConverter},
+                                       ConverterParameter=255,
+                                       StringFormat=', G={0:X2}'}" />
+                                
+                                <Label Text="{Binding Color.B,
+                                       Converter={StaticResource intConverter},
+                                       ConverterParameter=255,
+                                       StringFormat=', B={0:X2}'}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

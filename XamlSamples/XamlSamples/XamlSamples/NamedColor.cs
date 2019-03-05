@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Text;
 using Xamarin.Forms;
@@ -18,6 +19,8 @@ namespace XamlSamples
         public string FriendlyName { private set; get; }
 
         public Color Color { private set; get; }
+
+        public string Hex { private set; get; }
 
         // Static members.
         static NamedColor()
@@ -64,5 +67,7 @@ namespace XamlSamples
         }
 
         public static IEnumerable<NamedColor> All { private set; get; }
+
+
     }
 }

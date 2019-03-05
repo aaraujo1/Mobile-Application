@@ -67,7 +67,10 @@ namespace XamlSamples
                                       "Use a view model to select HSL colors"),
 
                 new PageDataViewModel(typeof(KeypadPage), "Keypad",
-                                      "Use a view model for numeric keypad logic")
+                                      "Use a view model for numeric keypad logic"),
+
+                new PageDataViewModel(typeof(ColorTyper), "Color Typer",
+                                      "See what colors's hex values begin with a letter")
             };
         }
 

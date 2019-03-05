@@ -1,10 +1,10 @@
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/bin/Debug/netstandard2.0/XamlSamples.deps.json
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/bin/Debug/netstandard2.0/XamlSamples.dll
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/bin/Debug/netstandard2.0/XamlSamples.pdb
-/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/obj/Debug/netstandard2.0/XamlSamples.csprojAssemblyReference.cache
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/obj/Debug/netstandard2.0/AbsoluteDemoPage.xaml.g.cs
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/obj/Debug/netstandard2.0/ClockPage.xaml.g.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/obj/Debug/netstandard2.0/ColorTyper.xaml.g.cs
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/obj/Debug/netstandard2.0/GridDemoPage.xaml.g.cs
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/obj/Debug/netstandard2.0/HelloXamlPage.xaml.g.cs
 /Users/andregaraujo/OneDrive - Waukesha County Technical College/VS Projects/4.2.1 - Mobile Application/XamlSamples/XamlSamples/XamlSamples/obj/Debug/netstandard2.0/HslColorScrollPage.xaml.g.cs
