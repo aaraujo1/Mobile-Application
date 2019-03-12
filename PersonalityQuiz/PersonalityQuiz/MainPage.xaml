@@ -1,7 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PersonalityQuiz" x:Class="PersonalityQuiz.MainPage">
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:PersonalityQuiz" 
+    x:Class="PersonalityQuiz.MainPage"
+    Title="Hogwarts Quiz"
+    >
+    
+     <!--<ContentPage.BindingContext>
+        <local:Question/>
+    </ContentPage.BindingContext>-->
+    
+    
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Label Text="Hogwarts House Quiz" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" x:Name="debug" />
+        <Label Text="" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" x:Name="The_Question"/>
+    
+        <Grid x:Name="FormLayoutGrid" Grid.Row="2" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="0" x:Name="Answer0" Grid.Column="0" Grid.Row="0" Clicked="OnButtonClicked" />
+            
+            <Button Text="1" x:Name="Answer1" Grid.Column="1" Grid.Row="0" Clicked="OnButtonClicked" />
+                    
+            <Button Text="2" x:Name="Answer2" Grid.Column="0" Grid.Row="1" Clicked="OnButtonClicked" />
+                    
+            <Button Text="3" x:Name="Answer3" Grid.Column="1" Grid.Row="1" Clicked="OnButtonClicked" />
+
+        </Grid>
+    
     </StackLayout>
 </ContentPage>
