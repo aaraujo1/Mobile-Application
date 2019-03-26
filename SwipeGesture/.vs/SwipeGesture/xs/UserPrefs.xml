@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{C93F010A-1600-4063-95FF-8C95FD10B722}|Default">
+  <MonoDevelop.Ide.ItemProperties.SwipeGesture.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SwipeGesture/SwipePage.xaml.cs">
+    <Files>
+      <File FileName="SwipeGesture/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="SwipeGesture/MainPage.xaml" Line="35" Column="15" />
+      <File FileName="SwipeGesture/SwipePage.xaml" Line="19" Column="1" />
+      <File FileName="SwipeGesture/SwipePage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SwipeGesture" expanded="True">
+            <Node name="SwipeGesture" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="SwipePage.xaml" expanded="True">
+                <Node name="SwipePage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SwipeGesture.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D24304DD-C814-43A9-ABE2-446A61064CF0" />
+</Properties>
