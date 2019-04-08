@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FlashCard" x:Class="FlashCard.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Flash Cards!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Image 
+            x:Name="_image"
+            Source=""
+            WidthRequest="{OnPlatform iOS=300, Android=250}"
+            HorizontalOptions="Center" />
+            <Image.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"/>
+                <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"/>
+                
+            </Image.GestureRecognizers>
+        <Label x:Name="_label" Text="" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Label.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"/>
+                <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"/>
+                
+            </Label.GestureRecognizers>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                
+            </Grid.ColumnDefinitions>
+    
+            <Button 
+                x:Name = "ButtonCorrectButton"
+                Text="Correct" 
+                Grid.Column="0"
+                Clicked="ButtonCorrect" 
+                Margin = "50"
+            />
+            
+            <Button 
+                x:Name = "ButtonWrongButton"
+                Text="Wrong" 
+                Grid.Column="1"
+                Clicked="ButtonWrong"
+                Margin = "50"
+            />
+           
+        </Grid>
+        
+    </StackLayout>
+</ContentPage>
