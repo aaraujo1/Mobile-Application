@@ -15,7 +15,8 @@ namespace PassingFormData
 
             //This code creates a MainPage instance, passing in the current date and time in ISO8601 format, 
             //which is wrapped in a NavigationPage instance.
-            MainPage = new NavigationPage(new MainPage(DateTime.Now));
+            //MainPage = new NavigationPage(new MainPage(DateTime.Now));
+            MainPage = new PassingFormData.MainPage();
         }
 
         protected override void OnStart()
