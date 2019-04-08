@@ -32,8 +32,8 @@ namespace PassingFormData
                 //Name = "André Araujo",
                 //Age = 36
                 Name = _name.Text,
-                //Age = Int32.Parse(_age.ToString()),
-                //DateAdded = dateString
+                Age = Int32.Parse(_age.Text),
+                DateAdded = dateString
             };
 
             var secondPage = new SecondPage();
