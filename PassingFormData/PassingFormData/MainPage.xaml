@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PassingFormData" x:Class="PassingFormData.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Passing Form Data" 
+                   HorizontalOptions="Center" 
+                   FontAttributes="Bold"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Label Text="Name: " 
+                   HorizontalOptions="Center" 
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Grid.Column="0"
+                   Grid.Row="0"/>
+            <Editor x:Name="_name"
+                   Placeholder="Enter your name"
+                   FontSize="Medium"
+                   Grid.Column="1"
+                   Grid.Row="0"/>
+            <Label Text="Age: " 
+                   HorizontalOptions="Center" 
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Grid.Column="0"
+                   Grid.Row="1"/>
+            <Editor x:Name="_age"
+                   Placeholder="Enter your age"
+                   FontSize="Medium"
+                   Grid.Column="1"
+                   Grid.Row="1"/>
+            <Label Text="Date: " 
+                   HorizontalOptions="Center" 
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Grid.Column="0" 
+                   Grid.Row="2"/>
+            <Label x:Name="dateLabel" 
+                   FontSize="Medium" 
+                   Grid.Column="1"
+                   Grid.Row="2"/>
+        </Grid>
+                <Button x:Name="navigateButton" Text="Next Page" Clicked="OnNavigateButtonClicked" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>

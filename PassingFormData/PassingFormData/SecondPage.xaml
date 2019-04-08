@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PassingFormData.SecondPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Passing Form Data" 
+                   HorizontalOptions="Center" 
+                   FontAttributes="Bold"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Your Name: " 
+                       HorizontalOptions="Center"
+                       FontSize="Medium" 
+                       FontAttributes="Bold"
+                       Grid.Column="0"
+                       Grid.Row="0"/>
+                <Label Text="{Binding Name}" 
+                       FontSize="Medium" 
+                       HorizontalOptions="Center"
+                       Grid.Column="1"
+                       Grid.Row="0"/>
+                
+                <!--<Label Text="Your Age: " 
+                       HorizontalOptions="Center"
+                       FontSize="Medium" 
+                       FontAttributes="Bold"
+                       Grid.Column="0"
+                       Grid.Row="1"/>
+                <Label Text="{Binding Age}" 
+                       FontSize="Medium" 
+                       HorizontalOptions="Center"
+                       Grid.Column="1"
+                       Grid.Row="1"/>
+                
+                <Label Text="Date Added: " 
+                       HorizontalOptions="Center"
+                       FontSize="Medium" 
+                       FontAttributes="Bold"
+                       Grid.Column="0"
+                       Grid.Row="2"/>
+                <Label Text="{Binding DateAdded}" 
+                       FontSize="Medium" 
+                       HorizontalOptions="Center"
+                       Grid.Column="1"
+                       Grid.Row="2"/>-->
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
