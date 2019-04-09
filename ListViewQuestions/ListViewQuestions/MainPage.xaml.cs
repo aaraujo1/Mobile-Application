@@ -27,10 +27,10 @@ namespace ListViewQuestions
 
         ObservableCollection<Question> questionCollection = new ObservableCollection<Question>
         {
-            new Question("Duck", "Ente"),
-            new Question("Squirrel", "Eichhörnchen"),
-            new Question("Cow", "Kuh"),
-            new Question("Chicken", "Hähnchen")
+            new Question("duck", "Duck", "Ente"),
+            new Question("squirrel", "Squirrel", "Eichhörnchen"),
+            new Question("cow", "Cow", "Kuh"),
+            new Question("chicken", "Chicken", "Hähnchen")
         };
 
 
