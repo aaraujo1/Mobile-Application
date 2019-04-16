@@ -1,0 +1,12 @@
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/bin/Debug/netstandard2.0/Todo.deps.json
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/bin/Debug/netstandard2.0/Todo.dll
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/bin/Debug/netstandard2.0/Todo.pdb
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/Todo.csprojAssemblyReference.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/Views/TodoItemPage.xaml.g.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/Views/TodoListPage.xaml.g.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/Todo.csproj.CoreCompileInputs.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/Todo.AssemblyInfoInputs.cache
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/Todo.AssemblyInfo.cs
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/Todo.dll
+/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo/obj/Debug/netstandard2.0/Todo.pdb

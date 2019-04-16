@@ -1,0 +1,39 @@
+@string/appbar_scrolling_view_behavior;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/rootlayout.xml
+@string/appbar_scrolling_view_behavior;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/shellcontent.xml
+alpha;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/enterfromleft.xml
+alpha;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/exittoleft.xml
+android.support.design.widget.AppBarLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/flyoutcontent.xml
+android.support.design.widget.AppBarLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/rootlayout.xml
+android.support.design.widget.AppBarLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/shellcontent.xml
+android.support.design.widget.BottomNavigationView;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/rootlayout.xml
+android.support.design.widget.CoordinatorLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/shellcontent.xml
+android.support.design.widget.TabLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/rootlayout.xml
+android.support.design.widget.TabLayout;obj/Debug/res/layout/tabbar.xml
+android.support.v4.widget.NestedScrollView;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/rootlayout.xml
+android.support.v4.widget.NestedScrollView;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/shellcontent.xml
+android.support.v7.widget.RecyclerView;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/flyoutcontent.xml
+android.support.v7.widget.Toolbar;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/rootlayout.xml
+android.support.v7.widget.Toolbar;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/shellcontent.xml
+android.support.v7.widget.Toolbar;obj/Debug/res/layout/toolbar.xml
+Button;obj/Debug/res/layout/main.xml
+color;obj/Debug/res/values/colors.xml
+FrameLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/bottomtablayout.xml
+item;obj/Debug/res/values/styles.xml
+LinearLayout;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/layout/bottomtablayout.xml
+LinearLayout;obj/Debug/res/layout/main.xml
+resources;obj/Debug/res/values/colors.xml
+resources;obj/Debug/res/values/strings.xml
+resources;obj/Debug/res/values/styles.xml
+set;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/enterfromleft.xml
+set;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/enterfromright.xml
+set;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/exittoleft.xml
+set;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/exittoright.xml
+string;obj/Debug/res/values/strings.xml
+style;obj/Debug/res/values/styles.xml
+translate;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/enterfromleft.xml
+translate;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/enterfromright.xml
+translate;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/exittoleft.xml
+translate;/Users/andregaraujo/OneDrive - Waukesha County Technical College/4 - Spring 2019 Semester/2.1 - Mobile Application Development/xamarin-forms-samples/Todo/Todo.Android/obj/Debug/lp/29/jl/res/anim/exittoright.xml
