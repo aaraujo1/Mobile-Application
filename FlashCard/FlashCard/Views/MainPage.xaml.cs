@@ -13,19 +13,23 @@ namespace FlashCard
         public int CardNumber = 0;
         public int Loops = 0;
 
-        public List<Card> cards = new List<Card>()
-        {
-            new Card("duck", "Duck", "Ente"),
-            new Card("squirrel", "Squirrel", "Eichhörnchen"),
-            new Card("cow", "Cow", "Kuh"),
-            new Card("chicken", "Chicken", "Hähnchen")
-        };
-
-
+        public List<Card> cards; 
 
         public MainPage()
         {
             InitializeComponent();
+
+
+
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            // Reset the 'resume' id, since we just want to re-start here
+            ((App)App.Current).ResumeAtCardId = -1;
+            cards = await App.Database.GetItemsAsync();
 
             //set initial image and text
             _image.Source = cards.ElementAt(CardNumber).Image;
@@ -34,8 +38,8 @@ namespace FlashCard
             //hide buttons
             ButtonCorrectButton.IsVisible = false;
             ButtonWrongButton.IsVisible = false;
-
         }
+
 
         //defining function OnSwiped
         void OnSwiped(object sender, SwipedEventArgs e)
