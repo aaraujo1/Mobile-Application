@@ -1,8 +1,15 @@
 ﻿using System;
+using SQLite;
+
 namespace ListViewQuestions
 {
     public class Question
     {
+
+        public Question() { }
+
+        [PrimaryKey, AutoIncrement]
+        public int ID { get; set; }
         //public string Image { get; set; }
         public string Text { get; set; }
         public string Answer { get; set; }
@@ -18,10 +25,8 @@ namespace ListViewQuestions
 
         public Question(string Text, string Answer)
         {
-
             this.Text = Text;
             this.Answer = Answer;
-
         }
     }
 }

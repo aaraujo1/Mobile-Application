@@ -25,13 +25,13 @@ namespace ListViewQuestions
             new Question("Chicken", "Hähnchen")
         };
 
-        ObservableCollection<Question> questionCollection = new ObservableCollection<Question>
-        {
-            new Question("duck", "Duck", "Ente"),
-            new Question("squirrel", "Squirrel", "Eichhörnchen"),
-            new Question("cow", "Cow", "Kuh"),
-            new Question("chicken", "Chicken", "Hähnchen")
-        };
+        //ObservableCollection<Question> questionCollection = new ObservableCollection<Question>
+        //{
+        //    new Question("duck", "Duck", "Ente"),
+        //    new Question("squirrel", "Squirrel", "Eichhörnchen"),
+        //    new Question("cow", "Cow", "Kuh"),
+        //    new Question("chicken", "Chicken", "Hähnchen")
+        //};
 
 
         public MainPage()
@@ -41,17 +41,36 @@ namespace ListViewQuestions
 
 
             //items = new ObservableCollection<string> { "alpha", "beta", "gamma", "delta", "epsilon" };
-            items = new ObservableCollection<string>();
-            foreach(Question q in questions){
-                items.Add(q.Text);
-            }
+            //items = new ObservableCollection<string>();
+            //foreach(Question q in questions){
+            //    items.Add(q.Text);
+            //}
 
-            //listView.ItemsSource = items;
-            listView.ItemsSource = questionCollection;
-            //listView.SetBinding (ListView.ItemsSourceProperty, new Binding ("Question"));
+            ////listView.ItemsSource = items;
+            //listView.ItemsSource = questionCollection;
+            ////listView.SetBinding (ListView.ItemsSourceProperty, new Binding ("Question"));
             //listView.BindingContext = items;
 
         }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            // Reset the 'resume' id, since we just want to re-start here
+            ((App)App.Current).ResumeAtTodoId = -1;
+            listView.ItemsSource = await App.Database.GetItemsAsync();
+
+            //items = new ObservableCollection<string>();
+            //foreach (Question q in questions)
+            //{
+            //    items.Add(q.Text);
+            //}
+            //listView.ItemsSource = questionCollection;
+
+
+        }
+
 
         public void OnItemSelected (object sender, SelectedItemChangedEventArgs e) {
             if (e.SelectedItem == null) return; // has been set to null, do not 'process' tapped event
